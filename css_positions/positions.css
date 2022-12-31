@@ -1,0 +1,139 @@
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    background-color: wheat;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.imageClass{
+    height: 42px;
+    width: 42px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.headName{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.sidebar{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    top: 60px;
+    left: 0px;
+    width: 300px;
+    display: flex;
+}
+
+.image-container{
+    padding-top: 20px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+}
+
+.sidebar-imageClass{
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.channel-container{
+    width: 100%;
+    padding-top: 15px;
+    background-color: rgb(55, 55, 55);
+}
+
+.channel-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px 10px 20px;
+}
+
+.channel-names{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.channels{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.absolute-position{
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 10px;
+    top: 5px;
+
+}
+
+.product-image{
+    height: 100%;
+    width: 100%;
+}
+
+.discount{
+    position: absolute;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    right: 0;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    background-color: rgba(227, 227, 227, 0.7);
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+
+.add{
+    background-color: rgb(255, 179, 2); 
+    border: none; 
+    padding: 5px 10px; 
+    color: white; 
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.add:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
